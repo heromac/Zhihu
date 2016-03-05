@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/message"
+        app:showAsAction="always"
+        android:icon="@drawable/message"
+        android:title="消息"
+        android:orderInCategory="80" />
+    <item
+        android:id="@+id/settings"
+        app:showAsAction="never"
+        android:title="设置选项"
+        android:orderInCategory="80" />
+</menu>

@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.jari.zhihu.view.MenuFragment">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/subscribe_button_unsubscribed_border_light">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:id="@+id/account_user_image"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:src="@drawable/account_avatar"/>
+            <TextView
+                android:id="@+id/account_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_fav"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@null"
+                android:layout_weight="1"
+                android:text="@string/user_fav"/>
+            <Button
+                android:id="@+id/btn_offline_download"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@null"
+                android:layout_weight="1"
+                android:text="@string/offline_download"/>
+        </LinearLayout>
+    </LinearLayout>-->
+
+    <!--<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">-->
+        <ListView
+            android:id="@+id/theme_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/empty_hint"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Noting to show"
+            android:visibility="gone"/>
+
+    <!--</FrameLayout>-->
+
+
+</FrameLayout>
